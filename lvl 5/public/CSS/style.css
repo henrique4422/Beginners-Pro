@@ -1,0 +1,93 @@
+@font-face {
+  font-family: repositoriosFontBold;
+  src: url(../Fonts/SourceSansPro-Bold.ttf);
+}
+
+@font-face {
+  font-family: repositoriosFontLight;
+  src: url(../Fonts/SourceSansPro-Light.ttf);
+}
+
+body {
+  font-family: repositoriosFontBold;
+}
+
+nav {
+  color: white;
+  background-color: rgb(253, 166, 52);
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+  font-size: 2rem;
+}
+
+
+nav input {
+  font-family: repositoriosFontBold;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+nav button {
+  color: white;
+  background-color: rgb(40, 94, 29);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#repositorios {
+  font-family: repositoriosFontLight;
+  width: 85%;
+  margin: 40px auto;
+  color: rgb(255, 255, 255);
+  font-size: 2.5em;
+  padding: 5px 15px;
+
+}
+
+#repositorios h1 {
+  font-family: repositoriosFontBold;
+  color: rgb(40, 94, 29);
+}
+
+#repositorios p {
+  font-family: repositoriosFontBold;
+  color: rgb(40, 94, 29);
+}
+
+#repositorios a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: White;
+  background-color: rgb(40, 94, 29);
+  border-radius: 5px;
+}
+
+#repositorios button {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: White;
+  background-color: rgb(40, 94, 29);
+  border-radius: 5px;
+}
+
+#repositorios div {
+  margin: 20px auto;
+  text-align: center;
+
+}
+
+.repositorios {
+  box-shadow: 2px 2px 8px 5px #000000;
+}
+
+.modal-title {
+  color: red;
+}
